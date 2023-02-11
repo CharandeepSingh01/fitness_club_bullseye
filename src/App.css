@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+.container{
+  
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  background-image: url('https://cdn.pixabay.com/photo/2015/01/10/17/32/physiotherapy-595529_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  box-shadow: 5px 5px 10px black;
+}
+
+.form{
+  margin-top: 120px;
+  height:50%;
+  width: 32%;
+  gap: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding:3rem;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px black;
+}
+input{
+  height:4rem;
+  padding-left: 0.4rem;
+  color: black;
+}
+.btn{
+  width:max-content;
+  margin: auto;
+  background-color: rgb(226, 118, 29);
+  padding: 1rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size:18px;
+  border-radius: 10px;
+}
+.btn2{
+  margin: auto;
+  margin-top: 1rem;
+}
+table{
+  background-color:white;
+}
+tr{
+  width:80%;
+
+}
+th{
+  padding-left:2rem;
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+  background-color: red;
+  color: #ffffff;
+}
+td{
+  padding-left:2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid black;
+}
+table,tr{
+  border: 1px solid black;
+}
+.title{
+  margin-top: 100px;
+}
